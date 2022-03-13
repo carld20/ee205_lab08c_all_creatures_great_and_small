@@ -14,7 +14,7 @@
 
 
 enum Gender {
-    UKNOWN_GENDER, MALE, FEMALE
+    UNKNOWN_GENDER, MALE, FEMALE
 };
 
 const float UNKNOWN_WEIGHT = -1;
@@ -23,7 +23,7 @@ class Animal {
 protected:
     static const std::string kingdom;
     std::string species;
-    enum Gender gender = UKNOWN_GENDER;
+    enum Gender gender = UNKNOWN_GENDER;
     float weight = UNKNOWN_WEIGHT;
 };
 
